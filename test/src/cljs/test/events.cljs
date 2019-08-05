@@ -9,7 +9,7 @@
  (re-frame/reg-event-db
   :identity
   (fn [db [_ final]]
-    (assoc db :final(str (get final :address))))
+    (assoc db :final(str (get final :address)))))
 
 
 (re-frame/reg-event-db
